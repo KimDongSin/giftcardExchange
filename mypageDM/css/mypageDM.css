@@ -1,0 +1,261 @@
+.my_dm_table {
+    max-width: 768px;
+    margin: 0 auto 18px;
+}
+
+.my_dm_table table {
+    width: 100%;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.my_dm_table table tr {
+    height: 57px;
+    line-height: 57px;
+}
+
+.my_dm_table table tr:first-child {
+    height: 40px;
+    background: #F5F5F5;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #828282;
+}
+
+.my_dm_table table tr th {
+    font-size: 12px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.my_dm_table table tr:not(:first-child):hover td:first-child{
+    text-decoration: underline;
+}
+
+.my_dm_table table tr:not(:last-child) {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.my_dm_table table tr td {
+
+}
+
+.my_dm_table table tr td:first-child {
+    width: 450px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.my_dm_table table tr td:not(:first-child) {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #828282;
+}
+
+.my_dm_table table tr td a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #000;
+}
+
+
+
+/*  */
+.my_mobile_card {
+    display: none;
+}
+
+
+
+/*  */
+.my_dm_paging {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_dm_paging ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_dm_paging ul li {
+
+}
+
+.my_dm_paging ul li span {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #BDBDBD;
+
+    cursor: pointer;
+
+}
+
+.my_dm_paging ul li.clicked span {
+    color: #2D9CDB;
+    border: 1px solid #56CCF2;
+    border-radius: 4px;
+}
+
+.my_dm_paging ul li span img {
+    position: relative;
+    top: 1px;
+}
+
+.my_dm_paging ul li span.arrow {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.my_dm_paging ul li span.arrow.right {
+    margin-left: 5px;
+}
+
+.my_dm_paging ul li span.arrow.left {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* 모바일 */
+@media (max-width: 767px) {
+    .my_dm_table {
+        display: none;
+    }
+
+    .my_mobile_card {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 20px;
+
+        display: block;
+    }
+
+    .my_mobile_card ul {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .my_mobile_card ul .card_info {
+        width: 100%;
+        /* padding: 20px 0; */
+        border-bottom: 1px solid #E8E8E8;
+    }
+
+    
+    .card_info a {
+        display: block;
+        padding: 20px 0;
+    }
+    .card_info:first-child a {
+        padding-top: 0;
+    }
+
+    .card_info a > span {
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.5px;
+        color: #000;
+        margin-bottom: 10px;
+    }
+
+    .card_info .card_state {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: -0.5px;
+        color: #828282;
+    }
+    .card_info .card_state .card_left_section {
+
+    }
+
+    .card_left_section span {
+        margin-right: 5px;
+    }
+
+    .card_info .card_state .answer_state {
+        color: #BDBDBD;
+    }
+
+    .card_info .card_state .answer_state #checkAnswer {
+        color: #828282;
+    }
+
+
+
+    /*  */
+    .my_dm_paging {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

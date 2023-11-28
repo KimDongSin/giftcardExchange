@@ -1,0 +1,371 @@
+.giftcard_sell_wrapper {
+    max-width: 768px;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.giftcard_sell_wrapper .giftcard_img {
+    position: relative;
+    width: 405px;
+    height: 413px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    border: 1px solid #E0E0E0;
+    flex-shrink: 0;
+}
+
+.giftcard_img img {
+    object-fit: cover;
+}
+
+.giftcard_img button {
+    position: absolute;
+    bottom: 20px;
+    width: 112px;
+    height: 30px;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    background: #999999;
+}
+
+.giftcard_sell_wrapper .giftcard_sell_info {
+    width: 100%;
+}
+
+.giftcard_sell_info .sell_price {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.sell_price .sell_title {
+    margin-bottom: 6px;
+}
+
+.sell_price .sell_title span {
+    width: 100%;
+    display: block;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: #000;
+}
+
+.sell_price .discount_price {
+    
+}
+
+.sell_price .discount_price span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    color: #444444;
+    margin-right: 4px;
+}
+
+.sell_price .discount_price span.original_price {
+    color: #BDBDBD;
+    text-decoration: line-through;
+}
+
+.sell_price .giftcard_price {
+    
+}
+
+.sell_price .giftcard_price span {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    color: #444444;
+    margin-bottom: 12px;
+}
+
+.sell_price .giftcard_price span.real_price {
+    color: #2D9CDB;
+}
+
+.giftcard_sell_info .price_info_wrapper {
+    margin: 20px 0;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.price_info_wrapper .price_info_list {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.price_info_list > span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    color: #828282;
+}
+
+.price_info_list span.price_key{
+    width: 100px;
+}
+
+.price_info_list span.price_value {
+    color: #000;
+}
+
+.price_info_wrapper span.price_notion {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    color: #828282;
+}
+
+.giftcard_sell_info .giftcard_cnt_wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.giftcard_cnt_wrapper .giftcard_cnt_control {
+    width: 100%;
+    background: #F5F5F5;
+    padding: 16px 12px;
+    margin-bottom: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.giftcard_cnt_control span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    color: #828282;
+}
+
+.giftcard_cnt_control input {
+    width: 82px;
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid #E0E0E0;
+}
+
+.giftcard_cnt_wrapper .gift_total_price {
+    width: 100%;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gift_total_price span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.giftcard_sell_info .detail_btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail_btn button {
+    width: 120px;
+    height: 44px;
+    border-radius: 6px;
+}
+
+.detail_btn button.white {
+    width: 80px;
+}
+
+
+
+/*  */
+.giftcard_detail_tab {
+    max-width: 768px;
+    margin: 0 auto 30px;
+    padding-top: 6px;
+    border-top: 1px solid #000000;
+}
+
+.giftcard_detail_tab ul {
+    display: flex;
+    height: 50px;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.giftcard_detail_tab ul li {
+    position: relative;
+    width: 140px;
+    height: 100%;
+    text-align: center;
+}
+
+.giftcard_detail_tab ul li.active {
+
+}
+
+.giftcard_detail_tab ul li.active::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #2D9CDB;
+    bottom: -1px;
+    right: 0;
+}
+
+.giftcard_detail_tab ul li.active span {
+    font-weight: bold;
+    color: #2D9CDB;
+}
+
+.giftcard_detail_tab ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.giftcard_detail_tab ul li span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    color: #888888;
+}
+
+.giftcard_detail_tab ul li span.review_cnt {
+    color: #BDBDBD;
+}
+
+
+
+/*  */
+.giftcard_Detial_info {
+    max-width: 768px;
+    margin: 0 auto 60px;
+}
+
+.giftcard_Detial_info ul {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.giftcard_Detial_info ul li {
+    list-style-type: disc;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+
+.giftcard_cnt_control .giftcard_cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 8px;
+}
+
+.giftcard_cnt_control .giftcard_cnt button {
+    width: 26px;
+    height: 26px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    background: #fff;
+}
+
+.giftcard_cnt_control .giftcard_cnt input {
+    display: block;
+    width: 26px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000;
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+
+
+@media (max-width : 768px) {
+    
+    .giftcard_sell_wrapper {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .giftcard_sell_wrapper .giftcard_img {
+        width: 100%;
+        height: 350px;
+        margin: 0;
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+
+    .giftcard_img button {
+        display: none;
+    }
+
+    .detail_btn button {
+        width: 110px;
+    }
+
+    .detail_btn button.white {
+        width: 75px;
+    }
+
+
+    .giftcard_detail_tab {
+        margin: 6px 20px 30px;
+    }
+
+    .giftcard_detail_tab ul li span {
+        font-size: 12px;
+    }
+
+    .giftcard_Detial_info ul {
+        padding: 0 20px 0 40px;
+    }
+
+    .giftcard_Detial_info ul li {
+        font-size: 12px;
+    }
+
+    .giftcard_img img {
+        width: 100%;
+    }
+
+}

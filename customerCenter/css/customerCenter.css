@@ -1,0 +1,365 @@
+.header_tab_img {
+    max-width: 768px;
+    height: 164px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header_tab_img img {
+    object-fit: cover;
+}
+
+.servcieInfo_wrapper {
+    max-width: 768px;
+    margin: auto;
+}
+
+.cust_img {
+    width: 100%;
+    height: 164px;
+}
+
+.cust_main_text {
+    width: 100%;
+    height: 142px;
+}
+
+.cust_main_text p {
+    text-align: center;
+}
+
+
+.cust_main_text p:first-of-type {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+}
+
+.cust_main_text p:last-of-type {
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+}
+
+.cust_tab {
+    max-width: 768px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+
+.cust_tab ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cust_tab_list {
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #F2F2F2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.cust_tab_list span {
+    display: block;
+    width: 100%;
+    color: #BDBDBD;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+/* js속성 */
+.underLine {
+    border-bottom: 3px solid black;
+}
+
+.underLine span {
+    color: black;
+}
+
+.cust_wrapper_pc {
+    max-width: 768px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.cust_table tr th {
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #828282;
+    background-color: #F5F5F5;
+    height: 40px;
+}
+.cust_table tr th:first-of-type {
+    width: 448px;
+    padding-right: 24px;
+}
+.cust_table tr th:nth-of-type(2) {
+    width: 120px;
+}
+.cust_table tr th:nth-of-type(3) {
+    width: 80px;
+}
+.cust_table tr th:nth-of-type(4) {
+    width: 60px;
+}
+.cust_table tr th:last-of-type {
+    width: 60px;
+}
+
+.cust_table tr td {
+    height: 59px;
+    line-height: 59px;
+    border-bottom: 1px solid#F5F5F5;
+}
+
+.cust_table tr td:first-of-type {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cust_table tr td:not(:first-of-type) {
+    font-size: 13px;
+    font-weight: 400;
+    color: #828282;
+    text-align: center;
+}
+
+.cust_table tr td a {
+    color: #000;
+}
+
+/*  */
+.cust_paging {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 138px;
+}
+
+.cust_paging ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cust_paging ul li {
+
+}
+
+.cust_paging ul li span {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #BDBDBD;
+
+    cursor: pointer;
+
+}
+
+.cust_paging ul li.clicked span {
+    color: #2D9CDB;
+    border: 1px solid #56CCF2;
+    border-radius: 4px;
+}
+
+.cust_paging ul li span img {
+    position: relative;
+    top: 1px;
+}
+
+.cust_paging ul li span.arrow {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.cust_paging ul li span.arrow.right {
+    margin-left: 5px;
+}
+
+.cust_paging ul li span.arrow.left {
+    margin-right: 5px;
+}
+
+.header_tab_img_m, .customer_card, .mo_mode{
+    display: none;    
+}
+
+
+/* mobile */
+@media (max-width: 767px){
+
+    .header_tab_img, .cust_paging, .cust_wrapper_pc {
+        display: none;
+    }
+    
+    .header_tab_img_m {
+        max-width: 767px;
+        margin: 0 auto; 
+        display: flex;
+        justify-content: center;
+    }
+
+    .cust_tab_img_m {
+        max-width: 360px;
+        height: 400px;
+    }
+
+    .cust_list {
+        max-width: 768px;
+        height: 59px;
+        text-align: center;
+        cursor: pointer;
+    } 
+    
+    .cust_list > div {
+        display: inline-block;
+    }
+    
+    .cust_list > div:first-of-type {
+        width: 448px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .cust_list > div:not(:first-of-type) {
+        font-size: 13px;
+        font-weight: 400;
+        color: #828282;
+    }
+    
+    .cust_list > div span {
+        line-height: 59px;
+    }
+
+    .cust_main_text p:first-of-type {
+        padding-top: 50px;
+    }
+
+    .cust_main_text p:last-of-type {
+        color: #828282;
+    }
+
+    .cust_tab {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .cust_tab_list span {
+        font-size: 12px;
+    }
+
+    .tab_img {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tab_img img {
+        max-width: 313px;
+        height: 267px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .my_dm_table {
+        display: none;
+    }
+
+    .customer_card {
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .customer_card ul {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .customer_card ul .card_info {
+        width: 100%;
+        padding: 20px 0;
+        border-bottom: 1px solid #E8E8E8;
+    }
+    
+    .card_info a {
+        display: block;
+    }
+    .card_info:first-child a {
+        padding-top: 0;
+    }
+
+    .card_info a > span {
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: -0.5px;
+        color: #000;
+        margin-bottom: 10px;
+    }
+
+    .card_info .card_state {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: -0.5px;
+        color: #828282;
+    }
+
+    .card_left_section span {
+        margin-right: 5px;
+    }
+
+    .card_right_section span {
+        margin-right: 5px;
+    }
+
+    .card_info .card_state .recommend, .card_info .card_state .lookup  {
+        color: #BDBDBD;
+    }
+
+    .recommend .recommend_cnt {
+        color: #828282;
+    }
+
+    .lookup .lookup_cnt {
+        color: #828282;
+    }
+
+
+
+}

@@ -1,0 +1,157 @@
+.my_addr_wrapper {
+    max-width: 768px;
+    margin: 0 auto 60px;
+}
+
+.my_addr_wrapper ul {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.my_addr_wrapper ul .my_addr_list {
+    position: relative;
+    width: 100%;
+    padding: 11px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #F5F5F5;
+}
+
+.my_addr_wrapper ul .my_addr_list:last-child {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.my_addr_list .my_addr_info {
+    
+}
+
+.my_addr_info span {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #000;
+}
+
+.my_addr_info span.addr_name {
+    margin-bottom: 12px;
+}
+
+.my_addr_info span.my_addr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    color: #828282;
+}
+
+.my_addr_list .addr_management_btn {
+
+}
+
+.addr_management_btn button {
+    width: 80px;
+    height: 31px;
+    margin-right: 10px;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+    border-radius: 6px;
+}
+
+
+
+/*  */
+.addt_add_btn {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addt_add_btn button {
+    width: 376px;
+    height: 59px;
+    font-size: 18px;
+    line-height: 59px;
+}
+
+
+
+/*  */
+@media (max-width : 767px) {
+
+    .my_addr_wrapper {
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .my_addr_wrapper ul .my_addr_list {
+        padding: 20px 0;
+    }
+
+    .my_addr_info span.addr_name {
+        font-size: 15px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .my_addr_info span.my_addr {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .my_addr_list .addr_management_btn {
+        position: absolute;
+        top: 14px;
+        right: 0;
+    }
+
+    .addr_management_btn button {
+        width: 50px;
+        height: 31px;
+    }
+
+    .addr_management_btn button:last-child {
+        margin-right: 0;
+    }
+
+
+
+    /*  */
+    .addt_add_btn {
+        padding: 0 20px;
+        margin-bottom: 70px;
+    }
+
+    .addt_add_btn button {
+        width: 100%;
+    }
+
+    .addr_management_btn button {
+        width: 60px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

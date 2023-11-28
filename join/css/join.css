@@ -1,0 +1,162 @@
+.header_tab {
+    display: none;
+}
+
+.main__wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+.container {
+    padding-bottom: 164px;
+}
+
+.main__title__wrapper {
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.main__title__wrapper>h1 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main__title__wrapper>span {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main__input__wrapper {
+    width: 100%;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 40px;
+}
+
+.main__input__wrapper:nth-of-type(4) {
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.main__input__box .input_title_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_title_wrapper > h1 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.input_title_wrapper > span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #2D9CDB;
+    margin-bottom: 10px;
+    
+}
+
+.main__input__box .input_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.main__input__box .input_box.margb_box {
+    margin-bottom: 20px;
+}
+
+.main__input__box .input_box button {
+    width: 110px;
+    height: 50px;
+    margin-left: 10px;
+    background: #BDBDBD;
+    color: #fff;
+}
+
+.main__input__box.warn .input_title_wrapper h1 {
+    color: #EB5757;
+}
+
+.main__input__box.warn .input_box input {
+    border: 1px solid #EB5757;
+    border-radius: 10px;
+}
+
+.main__input__box .warn_alert {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.main__input__box .warn_alert img {
+    margin-right: 4px;
+}
+
+.main__input__box .warn_alert span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #EB5757;
+}
+
+
+.join_btn {
+    width: 100%;
+}
+
+.join_btn button {
+    width: 400px;
+    height: 60px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    .main__wrapper,
+    .login__wrapper__btn,
+    .join__wrapper__btn {
+        width: 100%;
+    }
+    .main__wrapper {
+        margin: 40px auto 0px;
+        padding: 0 20px;
+        /* container에 bottom 30px 간격있어서 60줌 */
+    }
+    .login__wrapper__btn {
+        margin-bottom: 12px;
+    }
+    .container {
+        padding-bottom: 90px;
+    }
+
+    .main__input__box .input_box button {
+        width: 80px;    
+    }
+
+    .join_btn button {
+        width: 100%;
+        height: 50px;
+    }
+
+}

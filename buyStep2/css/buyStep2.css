@@ -1,0 +1,297 @@
+
+/*결제 정보*/
+.payment_info_wrapper{
+    max-width: 768px;
+    margin: 0 auto 60px;
+    border-top : 2px solid #000000;
+    padding-top: 25px;
+}
+
+
+.payment_word {
+    margin-bottom: 16px;
+}
+
+.payment_word > span{
+    font-size:20px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.payment_info_wrapper ul {
+    
+}
+
+.payment_info_wrapper ul li {
+    border-top : 1px solid #E0E0E0;
+
+}
+
+.payment_info_wrapper ul li:last-child {
+    border-bottom : 1px solid #E0E0E0;
+
+}
+
+.info_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding : 10px 23px 10px 0px;
+    letter-spacing: -0.5px;
+    align-items: center;
+}
+
+.info_list > div:nth-of-type(1) > span{
+    font-size: 14px;
+}
+
+.voucher_info{
+    margin-top : 6px;
+    font-size: 12px;
+    color: #828282;
+}
+
+.voucher_info > span{
+    margin-right : 16px;
+}
+
+.info_list > div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+}
+
+.info_list > div:nth-of-type(2) > span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.info_list > div:nth-of-type(2) > span:first-child{
+    margin-right: 20px;
+}
+.info_list > div:nth-of-type(2) > span:last-child{
+    color: #2D9CDB;
+}
+
+
+.total_payment{
+    color: #333333;
+    margin-top: 30px;
+    height: 21px;
+    font-weight: bold;
+}
+
+.total_payment p{
+    text-align: right;
+}
+
+.total_payment span{
+    color: #EB5757;
+}
+
+
+
+/*  */
+
+.mypage_table_type2 {
+    margin-bottom: 40px;
+}
+
+.mypage_table_type2 .table_title span {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.mypage_table_type2 .addr_check {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mypage_table_type2 .addr_check input {
+    margin-right: 6px;
+}
+
+
+.mypage_table_type2 table {
+    border-top: none;
+}
+
+.mypage_table_type2 table tr td {
+    border-top: 1px solid #E0E0E0;
+}
+
+.mypage_table_type2 table tr td input {
+    display: block;
+    width: 250px;
+    height: 32px;
+}
+
+.mypage_table_type2 table tr td input + span {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #828282;
+    margin-bottom: 4px;
+}
+
+.mypage_table_type2  table tr:nth-child(3) td:last-child {
+    line-height: initial;
+}
+
+.mypage_table_type2  table tr td .addr_search {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.mypage_table_type2 table tr td textarea {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.mypage_table_type2  table tr td .addr_search input {
+    width: 119px;
+}
+
+.mypage_table_type2  table tr td .addr_search button {
+    width: 125px;
+    height: 32px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+
+.mypage_table_type2  table tr td.addr_td > input {
+    display: block;
+    margin-bottom: 4px;
+    width: 100%;
+} 
+
+.mypage_table_type2  table tr td.addr_td > input:last-child {
+    margin-bottom: 6px;
+}
+
+.mypage_table_type2  table tr td textarea {
+    width: 100%;
+    height: 146px;
+    vertical-align: top;
+    resize: none;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+
+/*  */
+@media (max-width : 768px ) {
+    
+    .step_banner img {
+        content: url('../../common/images/m_buyStep_banner.png');
+    }
+
+    .step_tab_banner img {
+        content: url('../../common/images/m_buyStep_tab2_banner.png');
+     }
+
+
+
+    /*  */
+    .payment_info_wrapper {
+        margin: 20px;
+        padding-top: 32px;
+        margin-bottom: 57px;
+    }
+
+    .voucher_info {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .info_list > div:nth-of-type(1) > span {
+        display: block;
+        margin-bottom: 13px;
+    }
+
+    .voucher_info > span {
+        margin: 0;
+        margin-bottom: 6px;
+        line-height: 14px;
+    }
+
+    .info_list > div:nth-of-type(2) {
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .info_list > div:nth-of-type(2) > span:first-child {
+        margin: 0;
+        margin-bottom: 4px;
+    }
+
+
+
+    /*  */
+    .mypage_table_type2 {
+        display: block;
+        padding: 0 20px;
+    }
+
+    .mypage_table_type2 table tr td input {
+        width: 100% !important;
+    }
+
+    .mypage_table_type2 table tr td input + span {
+        margin-top: 2px;
+    }
+
+    .mypage_table_type2 table tr td .addr_search button {
+        width: 97px;
+        line-height: 32px;
+        flex-shrink: 0;
+    }
+
+    .mypage_table_type2 table tr td textarea {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

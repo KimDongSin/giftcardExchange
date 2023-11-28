@@ -1,0 +1,116 @@
+/*  */
+.mypage_table_type2 {
+    margin-bottom: 12px;
+}
+
+.mypage_table_type2 table tr td input {
+    width: 250px;
+    height: 32px;
+}
+
+.mypage_table_type2 table tr td .asterisk {
+    color: #2D9CDB;
+}
+
+.mypage_table_type2 table tr:last-child td:nth-child(2) input { 
+    width: 100%;
+}
+
+
+
+/*  */
+.checkbox_wrapper {
+    max-width: 768px;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.checkbox_wrapper input {
+    margin-right: 6px;
+}
+
+.checkbox_wrapper label {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: #000;
+}
+
+.checkbox_wrapper span {
+    font-weight: bold;
+}
+
+
+
+.addr_btn_wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.addr_btn_wrapper button {
+    width: 240px;
+    height: 59px;
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.addr_btn_wrapper button:last-child {
+    margin: 0;
+}
+
+
+
+@media (max-width: 767px) {
+    /*  */
+    .mypage_table_type2 {
+        display: block;
+        padding: 0 20px;
+    }
+
+    .mypage_table_type2 table tr td:nth-child(1) {
+        width: 90px;
+    }
+    
+    .mypage_table_type2 table tr td {
+        padding-right: 0;
+    }
+    
+    .mypage_table_type2 table tr td input {
+        width: 100%;
+    }
+
+    
+
+    /*  */
+    .checkbox_wrapper {
+        padding: 0 20px;
+    }
+
+    .checkbox_wrapper label {
+        font-size: 12px;
+    }
+
+
+
+    /*  */
+    .addr_btn_wrapper {
+        margin-bottom: 60px;
+    }
+
+    .addr_btn_wrapper button {
+        width: 155px;
+        height: 50px;
+    }
+
+
+
+
+
+
+
+
+}

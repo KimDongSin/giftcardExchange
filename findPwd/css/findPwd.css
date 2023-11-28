@@ -1,0 +1,220 @@
+.main__title__wrapper {
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.main__title__wrapper>h1 {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.main__title__wrapper>span {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* login에서 가져옴 */
+
+.main__input__wrapper {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__input__wrapper>h1 {
+    color: #444444;
+    font-size: 16px;
+    margin: -1px 0 40px;
+}
+
+.main__text__wrapper span {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+.main__text__wrapper span:last-child {
+    color: #2D9CDB;
+}
+
+.main__text__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.main__input__form,
+.main__text__wrapper {
+    width: 100%;
+}
+
+.input__form__number input[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin-right: 10px;
+    padding: 0 20px;
+}
+
+.main__input__form .input__form__number:first-child {
+    margin-bottom: 10px;
+}
+
+.input__form__number {
+    display: flex;
+    align-items: center;
+}
+
+.login__wrapper__btn {
+    margin-top: 40px;
+}
+
+.container {
+    padding-top: 49px;
+    padding-bottom: 62px;
+}
+
+@media (max-width: 767px) {
+    .main__text__wrapper span {}
+    .main__input__wrapper {
+        width: 320px;
+    }
+    .input__form__number input[type="text"] {
+        margin-right: 8px;
+    }
+    .container {
+        padding: 40px 0 90px;
+    }
+    .input__form__number input[type="text"] {
+        padding: 0 12px;
+    }
+}
+
+
+/* findPwdEnterID.css */
+
+.main__find__id {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+
+.main__find__id>span {
+    color: #bdbdbd;
+    margin-right: 11px;
+}
+
+.main__find__id>a {
+    color: #2D9CDB;
+    text-decoration: underline;
+}
+
+.main__find__wrapper .login__wrapper__btn {
+    margin: 52px 0 25px;
+}
+
+@media (max-width:767px) {
+    .main__find__wrapper .login__wrapper__btn {
+        margin: 84px 0 0;
+    }
+}
+
+
+/* findPwdCertification.css */
+
+.inputStyle {
+    width: 280px !important;
+    height: 50px !important;
+}
+
+.line_btn__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+}
+
+.line_btn__wrap>a {
+    width: 190px;
+    height: 59px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line_btn__wrap>a:first-child {
+    color: #ffffff;
+    background-color: #56CCF2;
+    margin-right: 20px;
+}
+
+.line_btn__wrap>a:last-child {
+    color: #828282;
+    background-color: #E0E0E0;
+}
+
+@media (max-width:767px) {
+    .inputStyle {
+        width: 232px !important;
+        height: 50px !important;
+    }
+    .line_btn__wrap {
+        margin-top: 84px;
+    }
+    .line_btn__wrap>a {
+        width: 155px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+
+/* findPwdCertificationWay.css */
+
+.email__wrap__box {
+    display: flex;
+    align-items: center;
+}
+
+.find__email__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.find__email__wrap input {
+    margin: 0;
+    margin-right: 8px;
+}
+
+.main__findpwd__wrapper .login__wrapper__btn {
+    margin-top: 73px;
+}
+
+.find__email__wrap>p {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #BDBDBD;
+    margin: 6px 37px 10px;
+}
+
+@media (max-width:767px) {
+    .main__findpwd__wrapper .login__wrapper__btn {
+        margin-top: 36px;
+    }
+    .find__email__wrap>p {
+        margin: 6px 34px 10px;
+    }
+}

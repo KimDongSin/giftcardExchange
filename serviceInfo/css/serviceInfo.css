@@ -1,0 +1,314 @@
+.header_tab_img {
+    max-width: 768px;
+    height: 164px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header_tab_img img {
+    object-fit: cover;
+}
+
+.servcieInfo_wrapper {
+    max-width: 768px;
+    margin: auto;
+}
+
+.svcinfo_img {
+    width: 100%;
+    height: 164px;
+}
+
+.svcinfo_main_text {
+    width: 100%;
+    height: 142px;
+}
+
+.svcinfo_main_text p {
+    text-align: center;
+}
+
+.svcinfo_main_text p:first-of-type {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+}
+
+.svcinfo_main_text p:last-of-type {
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+}
+
+.svcinfo_tab {
+    max-width: 768px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.svcinfo_tab ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.svcinfo_tab_list {
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #F2F2F2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.svcinfo_tab_list span {
+    display: block;
+    width: 100%;
+    color: #BDBDBD;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.serviceInfo_tab01 .tab_img,
+.serviceInfo_tab02 .tab_img,
+.serviceInfo_tab03 .tab_img {
+    width: 100%;
+    height: 242px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceInfo_tab01 .tab_img > div,
+.serviceInfo_tab02 .tab_img > div,
+.serviceInfo_tab03 .tab_img > div {
+    height: 202px;
+    width: 768px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.serviceInfo_tab01 .tab_img > div > div,
+.serviceInfo_tab02 .tab_img > div > div,
+.serviceInfo_tab03 .tab_img > div > div {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tab_text251 {
+    width: 251px;
+}
+.tab_text306 {
+    width: 306px;
+}
+.tab_text312 {
+    width: 312px;
+}
+.tab_text316 {
+    width: 316px;
+}
+.tab_text332 {
+    width: 328px;
+}
+.tab_text348 {
+    width: 348px;
+}
+.tab_text367 {
+    width: 367px;
+}
+.tab_text376 {
+    width: 376px;
+}
+.tab_text768 {
+    width: 768px;
+}
+
+.text_bold {
+    font-weight: bold !important;
+}
+
+.tab_img > div > div > span:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.tab_img > div > div > span:not(:first-of-type) {
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.tab_img > div > div > span > span {
+    color: #2D9CDB;
+}
+
+.warning_text {
+    color: #EB5757 !important;
+}
+
+.skyblue {
+    background-color: #F3F9FC;
+}  
+
+.svcinfo_tab_img {
+    max-width: 768px;
+    height: 202px;
+}
+
+.post_box {
+    width: 768px;
+    height: 106px;
+    border-radius: 10px;
+    background-color: #F8F8F8;
+    border: 1px solid #56CCF2;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.post_box div{
+    height: 28px;
+}
+
+.post_box div:first-of-type{
+    margin-top: 24px;
+}
+
+.post_box div span {
+    line-height: 28px;
+}
+
+.post_box div span:first-of-type {
+    color: #444444;
+    padding-left: 24px;
+}
+
+.post_box div span:last-of-type {
+    color: #222222;
+    padding-left: 27px;
+    font-weight: bold;
+}
+
+/* js속성 */
+.underLine {
+    border-bottom: 3px solid black;
+}
+
+.underLine span {
+    color: black;
+}
+
+/* mobile */
+.header_tab_img_m, .serviceInfo_tab01_m, .serviceInfo_tab02_m, .serviceInfo_tab03_m {
+    display: none;    
+}
+
+.indent01 {
+    margin-left: 1.1em;
+}
+
+
+/* media */
+@media (max-width: 768px){
+    .header_tab_img, .serviceInfo_tab01, .serviceInfo_tab02, .serviceInfo_tab03{
+        display: none;
+    }
+    
+    .header_tab_img_m {
+        margin: 0 auto; 
+        display: flex;
+        justify-content: center;
+    }
+
+    .svcinfo_main_text p:first-of-type {
+        padding-top: 50px;
+    }
+
+    .svcinfo_main_text p:last-of-type {
+        color: #828282;
+    }
+
+    .serviceInfo_tab01_m, .serviceInfo_tab02_m, .serviceInfo_tab03_m {
+        display: block;    
+    }
+
+    .serviceInfo_tab01_m .tab_img > div,
+    .serviceInfo_tab02_m .tab_img > div,
+    .serviceInfo_tab03_m .tab_img > div {
+        width: 281px;
+    }
+
+    .serviceInfo_tab01_m .tab_img > div > div,
+    .serviceInfo_tab02_m .tab_img > div > div,
+    .serviceInfo_tab03_m .tab_img > div > div {
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .svcinfo_tab {
+        padding-left: 21px;
+        padding-right: 21px;
+        height: 44px;
+    }
+
+    .svcinfo_tab_list span {
+        font-size: 12px;
+        height: 44px;
+        line-height: 44px;
+    }
+
+    .tab_img {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .serviceInfo_tab02_m .tab_img:last-of-type .tab_text_m {
+        width: 296px;
+    }
+    .serviceInfo_tab03_m .tab_img:not(:first-of-type) .tab_text_m { 
+        width: 296px;
+    }
+
+    .tab_img img {
+        width: 262px;
+        height: 202px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    .post_box{
+        display: none;
+    }
+
+    .tab_text_m{
+        width: 262px;
+    }
+    
+}

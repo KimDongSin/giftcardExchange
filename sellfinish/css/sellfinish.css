@@ -1,0 +1,384 @@
+.order_banner{
+    background-color: #2D9CDB14;
+
+}
+
+.order_banner{
+    padding: 30px 0px;
+    
+}
+
+.order_banner_wrapper{
+    display:flex;
+    max-width: 768px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_order_word p {
+    font-weight: bold;
+    font-size:20px;
+    line-height: 150%;
+}
+.left_order_word p span:nth-of-type(3){
+    color: #2D9CDB;
+}
+
+
+.right_order_word p{
+    line-height: 21px;
+    color: #444444;
+    letter-spacing: -0.5px;
+    font-size: 14px;
+}
+
+.right_order_word p span{
+    font-weight: bold;
+}
+
+/*판매 상품권 내역*/
+.sale_info_wrapper{
+    max-width: 768px;
+    margin: auto;
+    margin-top : 40px;
+}
+
+.sale_word{
+    height: 38px;
+    font-weight: bold;
+    font-size:16px;
+    letter-spacing: -0.5px;
+    border-bottom : 3px solid #000000;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.sale_word span:last-child{
+    display: block;
+    height: 14px;
+    width: 14px;
+    background-color: #56CCF2;
+    border-radius: 50%;
+    color:#fff;
+    text-align: center;
+    line-height: 10px;
+    padding: 2px;
+    font-size: 10px;
+    margin-left : 2px; 
+    
+}
+
+.info_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding : 10px 23px 10px 0px;
+    border-bottom : 1px solid #E0E0E0;
+    letter-spacing: -0.5px;
+    align-items: center;
+}
+
+.info_list > div:nth-of-type(1) > span{
+    font-size: 14px;
+}
+
+.voucher_info{
+    margin-top : 6px;
+    font-size: 12px;
+    color: #828282;
+}
+
+.voucher_info > span{
+    margin-right : 16px;
+}
+
+.info_list > div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+}
+
+.info_list > div:nth-of-type(2) > span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.info_list > div:nth-of-type(2) > span:first-child{
+    margin-right: 20px;
+}
+.info_list > div:nth-of-type(2) > span:last-child{
+    color: #2D9CDB;
+}
+
+.total_sale_amount > span{
+    display: block;
+    text-align: right;
+    letter-spacing: -0.5px;
+}
+
+.total_sale_amount > span:nth-of-type(1){
+    color: #828282;
+    font-size: 12px;
+    margin-top: 12px;
+    height: 18px;
+}
+
+.total_sale_amount > span:nth-of-type(2){
+    display: block;
+    color: #333333;
+    margin-top: 4px;
+    height: 27px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.total_sale_amount > span:nth-of-type(2) > span{
+    color: #EB5757;
+}
+
+
+/*
+판매하시는분
+판매 상세정보
+*/
+.info_wrapper{
+    max-width: 768px;
+    margin: auto;
+    margin-top : 60px;
+}
+
+.word_title{
+    height: 38px;
+    font-weight: bold;
+    font-size:16px;
+    letter-spacing: -0.5px;
+    border-bottom : 3px solid #000000;
+}
+
+.info_table{
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+
+.info_table td{
+    padding: 12px 0px 11px 10px;
+    border-bottom:1px solid #E0E0E0;
+    height: 45px;
+    vertical-align: middle;
+}
+.info_table td:nth-of-type(1){
+    width: 130px;
+    background-color: #F2F2F2;
+}
+.sales_details tr:nth-of-type(3) td{
+    height: 66px;
+    line-height: 21px;
+    
+}
+
+
+/*상품권 보내실 곳 주소*/
+.address_info_wrapper{
+    max-width: 768px;
+    padding: 24px 0px 24px 20px;
+    background-color: #F8F8F8;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    letter-spacing: -0.5px;
+}
+
+.address_info_wrapper > span{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.address_info_wrapper p:nth-of-type(1){
+    font-size: 16px;
+    font-weight: bold;
+    color: #2D9CDB;
+    padding-bottom: 20px;
+    line-height: 23px;
+}
+
+.address_info_wrapper p:nth-of-type(2){
+    font-size: 14px;
+    padding-bottom: 12px;
+    line-height: 21px;
+}
+
+.address_info_wrapper p:nth-of-type(3){
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+/*매입이 불가할 경우*/
+.caution_info_wrapper{
+    max-width: 768px;
+    padding: 24px 0px 24px 20px;
+    background-color: #FFF4F4;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    letter-spacing: -0.5px;
+}
+
+.caution_info_wrapper > span:nth-of-type(1){
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 10px;
+    color: #EB5757;
+}
+
+.caution_info_wrapper p:nth-of-type(1){
+    font-size: 14px;
+    padding-bottom: 8px;
+    line-height: 21px;
+}
+
+.caution_info_wrapper > span:nth-of-type(2){
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #EB5757;
+}
+
+
+/*확인버튼*/
+.confirm_wrapper{
+    max-width: 768px;
+    text-align: center;
+    margin: auto;
+    padding : 60px 0px;
+}
+
+.confirm_wrapper button{
+    width: 400px;
+    height: 59px;
+    font-weight: bold;
+    font-size : 18px;
+}
+
+/*
+미디어 쿼리
+*/
+@media screen and (max-width:768px){
+    
+    .left_order_word p{
+        font-size: 16px;
+    }
+
+    .right_order_word p{
+        font-size: 12px;
+    }
+
+    .order_banner_wrapper{
+        display : block;
+        padding-left : 20px; 
+    }
+    .left_order_word{
+        margin-bottom: 15px;
+    }
+
+    .sale_info_wrapper{
+        padding: 0px 20px;
+    }
+
+    .voucher_info{
+        margin-top : 12px;
+    }
+
+    .voucher_info > span{
+        display: block;
+        margin-top : 6px;
+    }
+
+    .info_list > div:nth-of-type(2){
+        display: block;
+        text-align: right;
+    }
+
+    .info_list > div:nth-of-type(2) > span:first-child{
+        display: block;
+        margin: 0px 0px 4px 0px;
+    }
+
+    .total_sale_amount{
+        margin-top: 20px;
+    }
+
+    .info_wrapper{
+        padding: 0px 20px;
+    }
+
+    .info_table{
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .info_table td:nth-of-type(1){
+        width: 90px;
+    }
+
+    .total_sale_amount > span:nth-of-type(1){
+        line-height: 18px;
+        height: initial;
+    }
+
+    .total_sale_amount > span:nth-of-type(1) span{
+        display: block;
+    }
+
+    .sales_details tr:nth-of-type(5) td > span {
+        display: block;
+    }
+
+    .sales_details tr:nth-of-type(5) td > span > span{
+        font-weight: bold;
+    }
+
+    .address_info_wrapper p:nth-of-type(1){
+        padding-bottom: 3px;
+        line-height: 21px;
+    }
+    .address_info_wrapper p:nth-of-type(2){
+        line-height: 18px;
+        padding-bottom: 9px;
+    }
+
+    .address_info_wrapper{
+        padding : 25px 20px;
+        margin-left : 20px;
+        margin-right: 20px;
+    }
+
+    .caution_info_wrapper{
+        padding : 25px 20px;
+        margin-left : 20px;
+        margin-right: 20px;
+    }
+
+    .confirm_wrapper button{
+        height: 50px;
+        width: 320px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

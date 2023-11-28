@@ -1,0 +1,283 @@
+.order_banner{
+    background-color: #2D9CDB14;
+
+}
+
+.order_banner{
+    padding: 30px 0px;
+    
+}
+
+.order_banner_wrapper{
+    display:flex;
+    max-width: 768px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_order_word p {
+    font-weight: bold;
+    font-size:20px;
+    line-height: 150%;
+}
+.left_order_word p span:nth-of-type(3){
+    color: #2D9CDB;
+}
+
+
+.right_order_word p{
+    line-height: 21px;
+    color: #444444;
+    letter-spacing: -0.5px;
+    font-size: 14px;
+}
+
+.right_order_word p span{
+    font-weight: bold;
+}
+
+/*결제 정보*/
+.payment_info_wrapper{
+    max-width: 768px;
+    margin: auto;
+    margin-top : 40px;
+}
+
+.payment_word{
+    height: 38px;
+    font-weight: bold;
+    font-size:16px;
+    letter-spacing: -0.5px;
+    border-bottom : 3px solid #000000;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.payment_word span:last-child{
+    display: block;
+    height: 14px;
+    width: 14px;
+    background-color: #56CCF2;
+    border-radius: 50%;
+    color:#fff;
+    text-align: center;
+    line-height: 10px;
+    padding: 2px;
+    font-size: 10px;
+    margin-left : 2px; 
+    
+}
+
+.info_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding : 10px 23px 10px 0px;
+    border-bottom : 1px solid #E0E0E0;
+    letter-spacing: -0.5px;
+    align-items: center;
+}
+
+.info_list > div:nth-of-type(1) > span{
+    font-size: 14px;
+}
+
+.voucher_info{
+    margin-top : 6px;
+    font-size: 12px;
+    color: #828282;
+}
+
+.voucher_info > span{
+    margin-right : 16px;
+}
+
+.info_list > div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+}
+
+.info_list > div:nth-of-type(2) > span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.info_list > div:nth-of-type(2) > span:first-child{
+    margin-right: 20px;
+}
+.info_list > div:nth-of-type(2) > span:last-child{
+    color: #2D9CDB;
+}
+
+
+.total_payment{
+    color: #333333;
+    margin-top: 12px;
+    height: 21px;
+    font-weight: bold;
+}
+
+.total_payment p{
+    text-align: right;
+}
+
+.total_payment span{
+    color: #EB5757;
+}
+
+
+/*주문하시는 분,
+상품 받으실 분,
+결제방법
+공통
+*/
+.info_wrapper{
+    max-width: 768px;
+    margin: auto;
+    margin-top : 60px;
+}
+
+.word_title{
+    height: 38px;
+    font-weight: bold;
+    font-size:16px;
+    letter-spacing: -0.5px;
+    border-bottom : 3px solid #000000;
+}
+
+.info_table{
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+}
+
+.info_table td{
+    padding: 12px 0px 11px 10px;
+    border-bottom:1px solid #E0E0E0;
+    height: 45px;
+    vertical-align: middle;
+}
+.info_table td:nth-of-type(1){
+    background-color: #F2F2F2;
+    width: 130px;
+}
+
+/*결제 방법*/
+
+.paymentway_info tr:nth-of-type(2) td:nth-of-type(2){
+    line-height: 150%;
+}
+
+.paymentway_info tr:nth-of-type(2) td span:nth-of-type(3) {
+    color: #EB5757;
+    font-weight: bold;
+}
+
+/*확인버튼*/
+.confirm_wrapper{
+    max-width: 768px;
+    text-align: center;
+    margin: auto;
+    padding : 60px 0px;
+}
+
+.confirm_wrapper button{
+    width: 400px;
+    height: 59px;
+    font-weight: bold;
+    font-size : 18px;
+}
+
+
+/*
+미디어 쿼리
+*/
+@media screen and (max-width:768px){
+    
+    .left_order_word p{
+        font-size: 16px;
+    }
+
+    .right_order_word p{
+        font-size: 12px;
+    }
+
+    .order_banner_wrapper{
+        display : block;
+        padding-left : 20px; 
+    }
+    .left_order_word{
+        margin-bottom: 15px;
+    }
+
+    .payment_info_wrapper{
+        padding: 0px 20px;
+    }
+
+    
+
+    .voucher_info{
+        margin-top : 12px;
+    }
+
+    .voucher_info > span{
+        display: block;
+        margin-top : 6px;
+    }
+
+    .info_list > div:nth-of-type(2){
+        display: block;
+        text-align: right;
+    }
+
+    .info_list > div:nth-of-type(2) > span:first-child{
+        display: block;
+        margin: 0px 0px 4px 0px;
+    }
+
+    .total_payment{
+        margin-top: 20px;
+    }
+
+
+    .info_wrapper{
+        padding: 0px 20px;
+    }
+
+    .info_table{
+        font-size: 12px;
+        line-height: 150%;
+    }
+
+    .info_table td:nth-of-type(1){
+        width: 90px;
+    }
+
+    .paymentway_info tr:nth-of-type(2) td span:nth-of-type(3){
+        display: block;
+    }
+
+    .confirm_wrapper button{
+        height: 50px;
+        width: 320px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

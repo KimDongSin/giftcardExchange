@@ -1,0 +1,158 @@
+
+/*  */
+.mypage_table_type2 {
+    margin-bottom: 18px;
+}
+
+.mypage_table_type2 .table_title span.blue {
+    color: #2D9CDB;
+}
+
+.mypage_table_type2 table tr {
+    height: 40px;
+    line-height: 40px;
+}
+
+.mypage_table_type2 table tr th {
+    height: 40px;
+    background: #F2F2F2;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    color: #828282;
+}
+
+.mypage_table_type2 table tr td { 
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #333333; 
+    text-align: center;
+}
+
+.mypage_table_type2 table tr td:nth-child(3),
+.mypage_table_type2 table tr td:nth-child(1) {
+    background-color: initial;
+}
+
+.mypage_table_type2 table tr td:nth-child(1) { 
+    width: 140px; 
+    text-decoration: underline;
+}
+
+.mypage_table_type2 table tr td:nth-child(2) { 
+    text-align: left; 
+}
+
+.mypage_table_type2 table tr td:nth-child(3) { 
+    width: 9ㄴㄴ0px; 
+}
+
+.mypage_table_type2 table tr td:nth-child(4) { 
+    width: 100px; 
+    font-weight: bold;
+    color: #EB5757;
+}
+
+.mypage_table_type2 table tr td:nth-child(6) { 
+    width: 80px; 
+}
+
+
+
+
+/*  */
+.my_dm_paging {
+    max-width: 768px;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_dm_paging ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my_dm_paging ul li {
+
+}
+
+.my_dm_paging ul li span {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #BDBDBD;
+
+    cursor: pointer;
+
+}
+
+.my_dm_paging ul li.clicked span {
+    color: #2D9CDB;
+    border: 1px solid #56CCF2;
+    border-radius: 4px;
+}
+
+.my_dm_paging ul li span img {
+    position: relative;
+    top: 1px;
+}
+
+.my_dm_paging ul li span.arrow {
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.my_dm_paging ul li span.arrow.right {
+    margin-left: 5px;
+}
+
+.my_dm_paging ul li span.arrow.left {
+    margin-right: 5px;
+}
+
+
+
+/*  */
+.search_result_wrapper {
+    display: none;
+}
+
+
+
+/*  */
+.mobile_paging {
+    display: none;
+}
+
+/*  */
+@media (max-width : 767px) {
+    .my_dm_paging {
+        display: none;
+    }
+
+
+
+    /*  */
+    .search_result_wrapper {
+        display: block;
+    }
+    
+    
+    
+    /*  */
+    .mobile_paging {
+        display: flex;
+    }
+
+}

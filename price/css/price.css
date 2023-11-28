@@ -1,0 +1,357 @@
+.visitShop_banner > img{
+    max-width: 768px;
+    height: 164px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.visitShop_word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: -0.5px;
+    margin-bottom: 40px;
+}
+
+.visitShop_word span:nth-of-type(1){
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.visitShop_word span:nth-of-type(2){
+    margin: 8px 0px 6px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.visitShop_word span:nth-of-type(2) br {
+    display: none;
+}
+
+.visitShop_word span:nth-of-type(3) {
+    font-size: 18px;
+    line-height: 27px;
+    color: #2D9CDB;
+    font-weight: 500;
+}
+
+.visitShop_list_wrapper{
+    max-width: 768px;
+    margin: auto;
+    margin-bottom : 60px;
+}
+
+.visitShop_list_wrapper ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+.visitShop_list_wrapper ul li{
+    height: 262px;
+    letter-spacing: -0.5px;
+}
+
+.visitShop_list_wrapper ul li > div{
+    width: 240px;
+    font-size: 0px;
+}
+
+.visitShop_list_wrapper ul li > div > img{
+    width: 100%;
+    height: 160px;
+}
+
+
+
+/* 상품권 탭 */
+.gift_tab_wrapper {
+    max-width: 768px;
+    margin: 0 auto 61px;
+}
+
+.gift_tab_wrapper ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gift_tab_wrapper ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gift_tab_wrapper ul li img {
+    margin-bottom: 6px;
+}
+
+.gift_tab_wrapper ul li span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #828282;
+}
+
+.buysell_btn {
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.buysell_btn button {
+    width: 376px;
+    height: 60px;
+    font-size: 18px;
+}
+
+.buysell_btn button:last-child {
+    background: #26A1E7;
+}
+
+
+
+/* 오늘의 시세 */
+.today_gift_wrapper {
+    max-width: 768px;
+    margin: 0 auto 47px;
+}
+
+.today_gift_wrapper .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.title .live_title {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+.title .live_title span {}
+
+.title .live_title span.live {
+    width: 56px;
+    height: 30px;
+    background: #FFD34B;
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.title .live_title span.today_title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.title .live_title span.semi_title {
+    display: block;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #828282;
+}
+
+.title .viewmore {}
+
+.title .viewmore a {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    color: #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title .viewmore a:hover img {
+    content: url('../../common/images/viewmore_arrow_blue.svg');
+
+}
+
+.title .viewmore img {
+    position: relative;
+    margin-left: 3px;
+    top: 1px;
+}
+
+
+/* table */
+.gift_table_wrapper {
+    width: 100%;
+}
+
+.gift_table_wrapper table {
+    width: 100%;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.gift_table_wrapper table tr {}
+
+.gift_table_wrapper table tr th {
+    width: 25%;
+    height: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #888888;
+    border-bottom: 1px solid #676767;
+}
+
+
+.gift_table_wrapper table tr:not(:first-child) {
+    height: 57px;
+    line-height: 57px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.gift_table_wrapper table tr:not(:first-child):nth-child(odd) {
+    background: #F8F8F8;
+}
+
+.gift_table_wrapper table tr td {}
+
+.gift_table_wrapper table tr:not(:first-child) td:nth-child(3) {
+    color: #DC4148;
+}
+
+.gift_table_wrapper table tr:not(:first-child) td:nth-child(4) {
+    color: #0887C9;
+}
+
+
+
+
+/*
+미디어 쿼리
+*/
+@media screen and (max-width:768px){
+
+    .visitShop_banner > img{
+        width: 320px;
+        height: 100px;
+        object-fit: cover;
+        content: url("../../common/images/m_price_banner.png");
+    }
+
+    .visitShop_word span:nth-of-type(1){
+        font-size: 18px;
+    }
+
+    .visitShop_word span:nth-of-type(2){
+        margin-top: 9px;
+        margin-bottom: 7px;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+    }
+
+    .visitShop_word span:nth-of-type(2) br {
+        display: block;
+    }
+
+    .visitShop_word span:nth-of-type(3) {
+        font-size: 16px;
+    }
+
+    .visitShop_list_wrapper ul{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .visitShop_list_wrapper ul li{
+        margin-bottom:50px;
+    }
+
+
+    /*  */
+    .today_gift_wrapper {
+        padding: 0 20px;
+        margin-bottom: 22px;
+    }
+
+    .title .live_title span.today_title {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+
+    .title .live_title span.live {
+        font-size: 12px;
+        width: 50px;
+        height: 24px;
+        margin-right: 7px;
+    }
+
+    .title .live_title span.semi_title {
+        font-size: 12px;
+    }
+
+    .title .viewmore a {
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    
+
+    /*  */
+    .gift_table_wrapper table tr:not(:first-child) {
+        font-size: 12px;
+        line-height: initial;
+        text-align: center;
+        border-bottom: 1px solid #E0E0E0;
+        vertical-align: middle;
+    }
+
+    .gift_table_wrapper table tr:last-child {
+        border: none;
+    }
+
+
+    .gift_table_wrapper table tr:not(:first-child) td {
+        vertical-align: middle;
+    }
+
+
+    /*  */
+    .buysell_btn {
+        flex-direction: column;
+        padding: 0 20px;
+        margin-bottom: 30px;
+    }
+    
+    .buysell_btn button {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+}

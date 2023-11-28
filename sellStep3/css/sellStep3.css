@@ -1,0 +1,221 @@
+.mypage_table_type2 {
+    margin-bottom: 60px;
+}
+
+.mypage_table_type2 table tr td input[type="text"] {
+    width: 250px;
+    height: 32px;
+}
+
+.mypage_table_type2 table tr td > span {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 0px;
+    color: #828282;
+    margin: 6px 0px 13px;
+}
+
+.mypage_table_type2 table tr td {
+    height: 44px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.mypage_table_type2 table tr td br {
+    display: none;
+}
+
+.mypage_table_type2 table tr td:nth-child(1) {
+    line-height: 21px;
+}
+
+.mypage_table_type2 table tr td .date_wrapper {
+    margin-right: 20px;
+}
+
+.mypage_table_type2 table tr td .date_wrapper span {
+    margin-right: 12px;
+}
+
+.mypage_table_type2 table tr td .date_wrapper input[type="text"] {
+    width: 100px;
+    margin-right: 4px;
+    font-size: 14px;
+    color: #2D9CDB;
+}
+
+.mypage_table_type2 table tr td .date_wrapper + span {
+    color: #EB5757;
+}
+
+.mypage_table_type2 table tr td textarea {
+    width: 100%;
+    height: 146px;
+    vertical-align: top;
+    resize: none;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.mypage_table_type2 table tr td textarea {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.mypage_table_type2 table tr td input[type="date"] {
+    background: url('../../common/images/icon_calender.svg') no-repeat;
+    background-position: center;
+    width: 32px !important;
+    height: 32px !important;
+    padding: 0;
+    border: none;
+}
+
+.mypage_table_type2 table tr td input[type="date"]::-webkit-inner-spin-button,
+.mypage_table_type2 table tr td input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 32px;
+    height: 32px;
+    opacity: 0;
+}
+
+.mypage_table_type2 table tr td .date_wrapper {
+    display: inline;
+}
+
+
+
+/*  */
+.confirm_btn {
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.confirm_btn button {
+    width: 376px;
+    height: 60px;
+    font-size: 18px;
+}
+
+
+
+@media (max-width : 768px) {
+
+    .step_banner img {
+        content: url('../../common/images/m_sellStep_banner.png');
+    }
+
+    .step_tab_banner img {
+        content: url('../../common/images/m_sellStep_tab3_banner.png');
+    }
+
+    .mypage_table_type2 {
+        display: block;
+        margin: 0 20px 60px;
+    }
+
+    .mypage_table_type2 table tr td:nth-child(1) {
+        width: 90px;
+        font-size: 12px;
+        vertical-align: top;
+        padding: 0 9px 0 10px;
+    }
+    
+    .mypage_table_type2 table tr:nth-child(1) td:nth-child(1),
+    .mypage_table_type2 table tr:nth-child(2) td:nth-child(1),
+    .mypage_table_type2 table tr:nth-child(3) td:nth-child(1) {
+        vertical-align: middle;
+    }
+
+    .mypage_table_type2 table tr td {
+        font-size: 12px;
+    }
+
+    .mypage_table_type2 table tr td select {
+        font-size: 10px;
+    }
+
+    .mypage_table_type2 table tr td br {
+        display: block;
+    }
+
+    .mypage_table_type2 table tr td input[type="text"] {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .mypage_table_type2 table tr td .date_wrapper {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+    }
+    
+    .mypage_table_type2 table tr td .date_wrapper  span {
+        width: 75px;
+        display: inline-block;
+        margin-right: 0;
+        flex-shrink: 0;
+    }
+
+    .mypage_table_type2 table tr td .date_wrapper input[type="text"] {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .mypage_table_type2 table tr td input[type="date"] {
+        flex-shrink: 0;
+    }
+
+    .mypage_table_type2 table tr td .date_wrapper + span {
+        height: initial;
+        line-height: initial;
+    }
+
+    .mypage_table_type2 table tr td textarea {
+        font-size: 12px;
+    }
+
+
+
+    /*  */
+    .confirm_btn {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .confirm_btn button {
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

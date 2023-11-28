@@ -1,0 +1,168 @@
+.bizaCoin_wrapper{
+    height: 400px;
+    background: url(../../common/images/bizaCoin_background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 62px 0px 52px 0px;
+}
+
+.bizaCoin_word{
+    color: #FFFFFF;
+}
+
+.bizaCoin_word > span{
+    text-align: center;
+    display: block;
+}
+
+.bizaCoin_word > span:nth-child(1){
+    font-size: 12px;
+    line-height: 140%;
+    margin-bottom: 6px;
+}
+
+.bizaCoin_word > span:nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bizaCoin_word > span:nth-child(2) > span > span{
+    color: #F2C94C;
+}
+
+.bizaCoin_img{
+    width: 418px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.bizaCoin_img > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    line-height: 140%;
+    font-weight: bold;
+    line-height: 140%;
+}
+
+.bizaCoin_img > div:nth-of-type(1) > span:nth-of-type(1){
+    margin-top:6px;
+}
+.bizaCoin_img > div:nth-of-type(1) > span:nth-of-type(2){
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bizaCoin_img > div:nth-of-type(3) > span:nth-of-type(1){
+    margin-top: 17px;
+}
+
+
+.bizaCoin_word2 > span {
+    font-size: 12px;
+    color: #E4EDFF;
+    letter-spacing: -2%;
+    line-height: 140%;
+}
+.bizaCoin_word2 > span > span > span{
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.button_wrapper{
+    margin:auto;
+    margin-top : 40px;
+    max-width: 768px;
+    text-align: center;
+}
+
+.button_wrapper button{
+    width: 400px;
+    padding: 19px 0px;
+}
+
+/*
+미디어 쿼리
+*/
+
+@media screen and (min-width:769px){
+    .large_image{
+        display: block;
+    }
+    .small_image{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+
+    .bizaCoin_wrapper{
+        height: 588px;
+        background: url(../../common/images/bizaCoin_background2.png);
+        background-size: cover;
+        justify-content: initial;
+        
+    }
+
+    .bizaCoin_word > span:nth-of-type(2){
+        line-height: 140%;
+    }
+
+    .bizaCoin_word > span:nth-child(1){
+        margin-bottom: 14px;
+    }
+
+    .bizaCoin_word > span:nth-child(2) > span{
+        display: block;
+    }
+
+    .bizaCoin_img{
+        width: 290px;
+        margin : 40px 0px 66px 0px;
+    }
+
+    .large_image{
+        display: none;
+    }
+    .small_image{
+        display: block;
+    }
+
+    .bizaCoin_word2{
+        text-align: center;
+    }
+
+    .bizaCoin_word2 span{
+        font-size: 16px;
+    }
+    
+    .bizaCoin_word2 > span > span{
+        display: block;
+    }
+
+    .button_wrapper{
+        margin: 40px 0px 58px 0px;
+    }
+
+    .button_wrapper button{
+        width: 320px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
